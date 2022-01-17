@@ -50,6 +50,10 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+a::after {
+    content: '\00A0\1F517';
+}
+
 section {
     padding-top: 15vh;
     padding-bottom: 15vh;
